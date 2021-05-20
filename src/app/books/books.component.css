@@ -2,7 +2,7 @@
   display: grid;
   grid-gap: 2em;
   margin: 30px auto;
-  background-color: #ececec;
+  background-color: #fff;
 
 }
 
@@ -20,7 +20,7 @@
   background: #fff;
   border-radius: 4px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
-  color: #84878a;
+  color: ffff;
 }
 
 .grow {
@@ -34,4 +34,44 @@
 .btn-action-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+
+.recommended{
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: justify;
+}
+.recommended ul{
+  list-style: none;
+}
+
+.sign-in{
+  text-align: center;
+  font-weight: bolder;
+}
+
+
+.banned{
+  text-align:justify;
+  font-weight:bold;
+  font-size: 1.2em;
+}
+
+.lorem{
+  text-align: justify;
+  font-size: 1.2em;
+  padding: 10px 50px;
+} 
+
+.best{
+  text-align: justify;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.update{
+  text-align: right;
+  padding-right: 10px;
 }

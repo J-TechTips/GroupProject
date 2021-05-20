@@ -2,9 +2,10 @@
   display:grid;
   grid-template-rows:1fr 10fr;
   grid-gap: 2em;
-  margin: 30px auto;
+  margin: 0px auto;
   background-color: #ececec;
-
+  opacity: .9;
+  border-bottom: 1px solid black;
 }
 
 .book-card-container {
@@ -30,9 +31,19 @@
 
 .grow:hover {
   transform: scale(1.1);
+  opacity: 1;
 }
 
 .btn-action-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.section-title{
+  background-color: aliceblue;
+  padding: 20px;
+  opacity: 0.9;
+  border-bottom: 1px solid black;
+}
+.headings{
+  text-align: center;
+} 
